@@ -26,3 +26,11 @@ class Class:
 
   def _init_(self, className):
         self.className = className
+
+classes = ["CS 1050", "MATH 4100", "GEOL 1000"]
+
+for c in classes:
+    print("Listed are the available classes: \n")
+    print(c, "\n")
+
+input("Please choose a class to enroll\n")
